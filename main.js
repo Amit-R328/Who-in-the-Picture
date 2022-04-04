@@ -1,14 +1,14 @@
 var gQuests = [{
     id: 1, opt: ['china great wall', 'italy rome colosseum'], correctOptIndex: 0, image:
-        'imgs/top-attractions-in-the-world-china-great-wall.jpg'
+        './imgs/top-attractions-in-the-world-china-great-wall.jpg'
 },
 {
     id: 2, opt: ['egypt pyramids giza', 'italy rome colosseum'], correctOptIndex: 1, image:
-        'imgs/top-attractions-in-the-world-italy-rome-colosseum.jpg'
+        './imgs/top-attractions-in-the-world-italy-rome-colosseum.jpg'
 },
 {
     id: 3, opt: ['egypt pyramids giza', 'greece athens acropolis'], correctOptIndex: 0, image:
-        'imgs/top-attractions-in-the-world-egypt-pyramids-giza.jpg'
+        './imgs/top-attractions-in-the-world-egypt-pyramids-giza.jpg'
 }];
 var gRandomQuest;
 
