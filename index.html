@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>In-picture</title>
+    <link href="main.css" rel="stylesheet">
+</head>
+<body onload="init()">
+    <h1>what is in the picture?</h1>
+    <div class="board">
+        <div class="img"></div>
+        <hr>
+        <div class="options">
+            <button class="option1" onclick="buttonPressed(this)"></button>
+            <button class="option2" onclick="buttonPressed(this)"></button>
+        </div>
+    </div>
+    <div class="modal">
+        <button onclick="reset()">reset</button>
+        <h2>Great Job! reset?</h2>
+    </div>
+
+    <script src="main.js"></script>
+</body>
+</html>
